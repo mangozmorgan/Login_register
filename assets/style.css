@@ -1,0 +1,48 @@
+body{
+    background-color: #70a1ff;
+}
+
+.modalMessage{
+    --bg-opacity: 1;
+    background-color: #48bb78;
+    background-color: rgba(72,187,120,var(--bg-opacity));
+    position: fixed;
+    z-index: 5;
+    top: 30vh;
+    left: 45vw;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 2vh 1vw;
+    transition: all ease-in-out 1.5s;
+}
+.modalMessageOff{
+    --bg-opacity: 1;
+    background-color: #48bb78;
+    background-color: rgba(72,187,120,var(--bg-opacity));
+    position: fixed;
+    z-index: 5;
+    top: 30vh;
+    left: -150vw;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 2vh 1vw;
+    transition: all ease-in-out 1.5s;
+}
+
+.eye{
+    background-image: url('./public/icons/iconmonstr-eye-5.svg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.eyeOff{
+    background-image: url('./public/icons/iconmonstr-eye-8.svg') !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.password-icon{
+    padding: 0.5vh;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #aaaaac, -2px -2px 5px #d4d4d4;
+}
